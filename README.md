@@ -36,4 +36,10 @@ ossboard@MacBook-Pro ~ %
 
 ```
 
-# 한글 shift+space
+# Monterey에서 한글 shift+space
+```
+Monterey 출시 후 한/영 전환키가 Shift+Space키가 fn+Shift+Space키로 설정할 수 없음
+(Xcode를 설치후)\
+Finder -> (Cmd+Shift+G) -> ~/Library/Preferences/com.apple.symbolichotkeys.plist
+xcode 로 열기 > 파일의 61번 > value > parameters > item 2 > '786432' -> '131072'로 변경하고, 리부팅
+```
