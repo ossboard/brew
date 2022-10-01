@@ -7,20 +7,20 @@
 
 brew install mas
 mas install 497799835  # mas search xcode , 497799835  Xcode (14.0.1)
-mas search kakao , # mas search kakao , 869223134  카카오톡 (3.0.8)
-mas search MotionPro , 1218085720  MotionPro Plus (2.0.2)
+mas install 869223134  # mas search kakao , 869223134  카카오톡 (3.0.8)
+mas install 1218085720 # mas search MotionPro , 1218085720  MotionPro Plus (2.0.2)
 
 brew install chroma
 brew install tomcat@9
-brew install --cask oracle-jdk
-brew install --cask intellij-idea
-brew install --cask github
-brew install --cask sublime-text
-brew install --cask microsoft-office
-brew install --cask notion
-brew install --cask visual-studio-code
-brew install --cask gas-mask
-
+brew install --cask oracle-jdk # 오라클 jdk 19이상
+brew install --cask intellij-idea # 인텔리제이
+brew install --cask github # 깃허브
+brew install --cask sublime-text # 서브라임텍스트(text편집기)
+brew install --cask microsoft-office # ms오피스
+brew install --cask notion # 노션
+brew install --cask visual-studio-code # VSC
+brew install --cask gas-mask # hosts편집기
+brew install --cask google-chrome # 구글크롬
 
 ```
 
