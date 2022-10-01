@@ -21,7 +21,7 @@ brew install --cask notion # 노션
 brew install --cask visual-studio-code # VSC
 brew install --cask gas-mask # hosts편집기
 brew install --cask google-chrome # 구글크롬
-
+brew install --cask alfred
 ```
 
 
